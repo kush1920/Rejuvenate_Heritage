@@ -40,7 +40,7 @@ Tech4Heritage Hackathon
 			* Total variation loss for a 1-pixel dilation of the hole region
 			* (This can be seen in **src/PCONV_UNET.py**)
 		* Metrics - We have implemented Peak signal-to-noise ratio(PSNR) as our metric . While most 1D signal use RMSE(root mean square error) / SNR(signal to noise ratio)  images are different, in images it is clear that optimizing image towards RMSE (or the squared error) gives the "blurred" signal advantage which means edges are blurred. Since our visual system is very sensitive to edges, a different metric had to be created. Thus, the PSNR is recommended and it became the standard because it matched the visual system better then the RMSE/SNR. (This can be seen in **src/PCONV_UNET.py**)
-	* Next step was to train the model on our dataset . We did this for 800 epochs and still training for more ...
+	* Next step was to train the model on our dataset . We trained for 800 epochs and still training for more ...
 		* We first trained for 100 epochs with Learning rate of 0.0001 and batch normalization enabled in all layers . 
 		* Then for another 100 epochs with Learning rate of 0.00005 and batch normalization in all encoding layers is disabled.
 		* Repeat this process in loop till no of epochs you want .
@@ -49,39 +49,31 @@ Tech4Heritage Hackathon
 		* We can predict the model we created with all the weights and files (**src/PCONV_UNET.py** , **src/PCONV_LAYER.py** , **src/predict_gan.py** , **src/predict_mask.py**) kept in one folder with the help of **src/predict.ipynb** .
 
 
-## Workflow
-![Workflow ANPR](https://github.com/kush1920/Automatic-Number-Plate-Recognition/blob/master/Images%20and%20Videos/Images/workflow.jpg)
-
-## Limitations
-
-- Restrictions on Camera's Field Of View , Resolution an Frame Rate .
-- A better OCR trained on strong GPU's will give better results .
-
-
 ## Future Improvement 
 
-- Developments in ML and DL can give more precise and accurate outputs .
-- Reduction in size of camera and microprocessor can save space .
+- Better Neural Style Transfer Model
+- Better System requirements for training .
+- More Damaged and Clean images for making mode really damaged images . 
 
 
 ## Team Members 
 1. [Kushagra Babbar](https://github.com/kush1920)
-1. []()
-1. []()
-1. []()
+2. [Parth Chhabra](https://github.com/parthchhabra0611)
+3. [Arjav Jain](https://github.com/arjavjain20)
+4. [Aryan Prasad](https://github.com/aryanprasad)
 
 
 
 ## NOTE
 
-ALL THE WEIGHTS FILE CAN BE FOUND [HERE](https://drive.google.com/file/d/1YZuTmP-c4b07z5mfhOAtP_V_oymP5_xG/view?usp=sharing)
+ALL THE WEIGHTS FILE CAN BE FOUND [HERE](https://drive.google.com/drive/folders/1KgaaPV0NrPlJj-FVv-DR0P8cql4G0LAQ?usp=sharing)
 
 ## Refernces 
 
-- Opencv - https://www.youtube.com/playlist?list=PLvVx8lH-gGeC8XmmrsG855usswhwt5Tr1
+- Color Segmentation - https://realpython.com/python-opencv-color-spaces/
 
-- Yolo object dtection - https://pjreddie.com/darknet/yolo/
+- Unet-Architecture - https://keras.io/examples/vision/oxford_pets_image_segmentation/
 
-- Pytessercat - https://www.pyimagesearch.com/2017/07/10/using-tesseract-ocr-python/
+- GAN Model Paper - https://arxiv.org/abs/1804.07723
 
-- Object tracking - https://www.learnopencv.com/object-tracking-using-opencv-cpp-python/
+- Neural Style Transfer Model- https://www.tensorflow.org/tutorials/generative/style_transfer
