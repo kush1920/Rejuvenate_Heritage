@@ -3,9 +3,12 @@ Tech4Heritage Hackathon
 * Team Name - Ancient_AI
 * Team_ID - 128
 
-## ABSTRACT
+## Problem Statement
+* Create a Generator Model that can regenerate broken paintings with filling of missing parts (discontinuities):
 <p align ="justify">
-Automatic Numper Plate Recognition system is a python based utility that captures live traffic, detects number plate of the oncoming vehicles and stores the data into a database.
+* Build a function that can objectively identify the discontinuities and the missing elements
+* Build functions that can choose the right missing elements for the various types of missing elements      identified in the above-mentioned functions. The choice of the right missing elements will be driven by the learning of the data sets in this problem statement.
+* Create multiple outputs out of the above-mentioned functions and create functions to choose the most relevant output (optimization of the functions)
 </p>
 
 ![ANPR](https://github.com/kush1920/Automatic-Number-Plate-Recognition/blob/master/Images%20and%20Videos/Images/anpr.jpg)
