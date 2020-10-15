@@ -53,7 +53,7 @@ Tech4Heritage Hackathon
 
 - Better Neural Style Transfer Model
 - Better System requirements for training .
-- More Damaged and Clean images for making mode really damaged images . 
+- More Damaged and Clean images for making more really damaged images . 
 
 
 ## Team Members 
