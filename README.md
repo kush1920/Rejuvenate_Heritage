@@ -66,7 +66,7 @@ Tech4Heritage Hackathon
 
 ## NOTE
 
-ALL THE WEIGHTS FILE CAN BE FOUND [HERE](https://drive.google.com/drive/folders/1KgaaPV0NrPlJj-FVv-DR0P8cql4G0LAQ?usp=sharing)
+ALL THE WEIGHTS FILE CAN BE FOUND [HERE](https://drive.google.com/drive/folders/1mYnQgO0yVSjhq0NvfmLnG6DrZGXOaoNK?usp=sharing)
 
 ## Refernces 
 
