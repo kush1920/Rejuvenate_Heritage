@@ -1,5 +1,7 @@
-# Automatic-Number-Plate-Recognition
-Srishti 2020
+# Rejuvenate_Heritage
+Tech4Heritage Hackathon
+* Team Name - Ancient_AI
+* Team_ID - 128
 
 ## ABSTRACT
 <p align ="justify">
