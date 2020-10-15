@@ -18,52 +18,19 @@ Tech4Heritage Hackathon
 
 ![Tech4Heritage](https://github.com/kush1920/Rejuvenate_Heritage/blob/main/Images/Tech4Heritage_Poster.jpg)
 
+## SOLUTION APPROACH
+
+* We required a solution that would first detect the spots/irregularities in the image and then try to fill the spots based on the surrounding region of the spots/irregularities and other images in the dataset on which our model is trained.
+	* The first requirement was to build a dataset on our own , since datasets on damaged and corresponding clean paintings is not readily available. Steps for creating dataset -
+		* We took some damaged pantings as shown in **data/Damaged/** folder . With Opencv we did color segmentation and took out spots from the damaged images . We then renamed the damaged images according to their lower and higher hsv values which we got from color segmentation.(This can be seen in **src/editing.ipynb**)
+		* Then we took some clean paintings as shown in **data/Clean/** folder . We then overlayed the spots taken out from the damaged images as in above step on the clean images . (This can be seen in **src/generate_dataset.ipynb**)
+		* Then to add some old affect and tint we applied Neural Style Transfer on the overlayed images . We downloaded some textures for style transfer to be applied on the paintings passed through the above step . The textures are in **data/Textures/** folder .(This can be seen in **src/generate_dataset.ipynb**)
+		* Link for the dataset we created - ![Dataset](https://drive.google.com/drive/folders/1KgaaPV0NrPlJj-FVv-DR0P8cql4G0LAQ?usp=sharing)
+
+* 
 
 ## Workflow
 ![Workflow ANPR](https://github.com/kush1920/Automatic-Number-Plate-Recognition/blob/master/Images%20and%20Videos/Images/workflow.jpg)
-
-## Mechanical Aspects of Design
-
-* Structure
-<p align ="justify">
-A box with 3 sliding doors, to hold the electronic components of the system. Easy to fabricate design, without the hassle of drilling, tapering and milling. Extruded cut in the front to fit the face of camera.
-</p>
-
-* DIMENSIONS:
-BOX :  17 x  11  x  10  (cm)
-
-* Model
-
-![Model](https://github.com/atharva2702/Automatic-Number-Plate-Recognition/blob/master/Mechanical%20Design/CAD2.png)
-
-## Electric Aspects of Design 
-
-* Microcontroller
-Raspberry Pi 3B+ 
-
-* Camera
-LOGITECH WEBCAM 
-
-* Battery
-12 volt battery powering the pi with Micro USB 2.0 outlet
-
-## Cost Structure
-
-| Components       | Cost(INR.)     |
-| ---------------- |:--------------:|
-| Raspberry Pi     | 3830.00        |
-| Battery          | 1500.00        |
-| LOGITECH WEBCAM  | 3500.00        | 
-| Total            | 8830.00        |
-
-
-## Applications
-
-- Shopping Malls : To keep a record of vehicles entering
-- Toll Plaza : On highways for security reasons 
-- Parking Plazas : To detect and generate tax for parked vehicles automatically
-- Educational or Government Institutions : To ensure only authorized vehicles are permitted inside 
-
 
 ## Limitations
 
