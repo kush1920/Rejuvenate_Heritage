@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import tensorflow as tf
 config = tf.compat.v1.ConfigProto()
 config.gpu_options.allow_growth = True
@@ -22,10 +16,6 @@ from keras.models import model_from_json
 keras.backend.clear_session()
 import numpy as np
 import cv2
-
-
-# In[ ]:
-
 
 def predict_mask(img):
     with open('mask.json', 'r') as json_file:

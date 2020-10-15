@@ -1,17 +1,7 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 from keras.utils import conv_utils
 from keras import backend as K
 from keras.engine import InputSpec
 from keras.layers import Conv2D
-
-
-# In[2]:
-
 
 class PConv2D(Conv2D):
     def __init__(self, *args, n_channels=3, mono=False, **kwargs):
@@ -149,10 +139,4 @@ class PConv2D(Conv2D):
                 new_space.append(new_dim)
             new_shape = (input_shape[0], self.filters) + tuple(new_space)
             return [new_shape, new_shape]
-
-
-# In[ ]:
-
-
-
 

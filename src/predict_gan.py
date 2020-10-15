@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import tensorflow as tf
 tf.compat.v1.disable_eager_execution()
 tf.compat.v1.experimental.output_all_intermediates(True)
@@ -30,9 +24,6 @@ from copy import deepcopy
 import cv2
 import numpy as np
 from PCONV_UNET import *
-
-# In[ ]:
-
 
 def predict_final(img , mask):
     model = PConvUnet(256 , 512 , vgg_weights=None)
