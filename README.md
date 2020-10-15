@@ -10,6 +10,11 @@ Tech4Heritage Hackathon
 	* Build functions that can choose the right missing elements for the various types of missing elements identified in the above-mentioned functions. The choice of the right missing elements will be driven by the learning of the data sets in this problem statement.
 	* Create multiple outputs out of the above-mentioned functions and create functions to choose the most relevant output (optimization of the functions).
 
+* Create a Comparator or Discriminator Model to compare results of the outputs of the generative model with real image and provide probabilities of accuracy:
+	* Create a function that can compare generated output with the accepted output and calculate level of accuracy ▪ Based on multiple data sets, calculate and provide probability functions mentioning the expected level of accuracy of restoration for any image that enters the generative model.
+	* Train the generative model accordingly along with further training of this comparator model. Try to reach “equilibrium”.
+* Objective at the end of Hackathon:
+	* Create a system that reads a damaged image (with missing portions), identifies the areas that are damaged, and uses a model to fill the spaces that are missing using scientific assumptions drawn out of the sample datasets, effectively being able to restore any image similar to the sample dataset shared.
 
 ![ANPR](https://github.com/kush1920/Automatic-Number-Plate-Recognition/blob/master/Images%20and%20Videos/Images/anpr.jpg)
 
