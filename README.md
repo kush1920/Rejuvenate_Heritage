@@ -18,12 +18,6 @@ Tech4Heritage Hackathon
 
 ![Tech4Heritage](https://github.com/kush1920/Rejuvenate_Heritage/blob/main/Images/Tech4Heritage_Poster.jpg)
 
-## MOTIVATION
-<p align ="justify">
-In this fast growing world, crime is increasing exponentially and that calls for better security and survellience in many sensitive and crowded areas like Colleges, Malls etc. Before the emergence of AI, record keeping had to be done manually which led to many human errors, and eventually led to security lapses. With the resources now at our hands, programs like ANPR become a necesity for the greater good of society.
-
-So we took the project to design the above mentioned system, right from the source code to the body of this system.
-</p>
 
 ## Workflow
 ![Workflow ANPR](https://github.com/kush1920/Automatic-Number-Plate-Recognition/blob/master/Images%20and%20Videos/Images/workflow.jpg)
