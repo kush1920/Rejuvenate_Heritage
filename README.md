@@ -75,6 +75,6 @@ ALL THE WEIGHTS FILE CAN BE FOUND [HERE](https://drive.google.com/drive/folders/
 
 - Unet-Architecture - https://keras.io/examples/vision/oxford_pets_image_segmentation/
 
-- GAN Model Paper - https://arxiv.org/abs/1804.07723
+- GAN Model Paper - https://arxiv.org/abs/1804.07723 , https://github.com/MathiasGruber/PConv-Keras
 
 - Neural Style Transfer Model- https://www.tensorflow.org/tutorials/generative/style_transfer
