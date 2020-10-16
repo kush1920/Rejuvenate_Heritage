@@ -48,12 +48,13 @@ Tech4Heritage Hackathon
 		* (This can be seen in **src/training.ipynb**)
 		* We can predict the model we created with all the weights and files (**src/PCONV_UNET.py** , **src/PCONV_LAYER.py** , **src/predict_gan.py** , **src/predict_mask.py**) kept in one folder with the help of **src/predict.ipynb** .
 
+![Tech4Heritage](https://github.com/kush1920/Rejuvenate_Heritage/blob/main/Images/Poster.png)
 
 ## Future Improvement 
 
 - Better Neural Style Transfer Model
 - Better System requirements for training .
-- More Damaged and Clean images for making more really damaged images . 
+- More Damaged and Clean images for making more really damaged images .
 
 
 ## Team Members 
